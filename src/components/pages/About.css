@@ -20,15 +20,27 @@
     font-size: 20px;
 }
 
-@media(max-width:700px){
+@media(max-width:1000px){
     .about{
         margin-left: 25%;
     }
 }
 
-@media(max-width:400px){
+@media(max-width:700px){
     .about{
-        margin-left: 55%;
+        margin-left: 24%;
+    }
+}
+
+@media(max-width:500px){
+    .about{
+        margin-left: 25%;
+    }
+}
+
+@media(max-width:330px){
+    .about{
+        margin-left: 35%;
     }
 }
 
