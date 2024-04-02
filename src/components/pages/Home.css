@@ -31,14 +31,25 @@
     font-weight: bold;
 }
 
-@media (max-width:550px) {
+@media (max-width:570px) {
     .front{
         font-size:1rem;
+        text-align: center;
     }
     .back{
-        width:270px;
+        width:250px;
     }
     .chart{
         margin-left: 30%;}
+    
+}
+
+@media (max-width:440px) {
+    .front{
+        font-size:0.8rem;
+    }
+    .back{
+        width:170px;
+    }  
     
 }
