@@ -1,0 +1,44 @@
+
+
+.chart{
+    margin-left: 25%;
+    width: 60%;
+    height: 70vh;
+}
+
+.back{
+    display: flex;
+    margin: 20px;
+    margin-left: 40%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height:50px;
+    width:350px;
+    text-align: center;
+    background-color: rgb(255, 151, 71);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+    color: white;
+}
+
+
+
+.front{
+    font-size: 1.5rem ;
+    font-weight: bold;
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width:550px) {
+    .front{
+        font-size:1rem;
+    }
+    .back{
+        width:270px;
+    }
+    .chart{
+        margin-left: 30%;}
+    
+}
