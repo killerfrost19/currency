@@ -58,3 +58,10 @@ button{
     color: white;
     cursor: pointer;
 }
+
+@media (max-width: 500px){
+    .entire p{   
+        text-align: center;
+        margin-left: 2%
+    }
+}
