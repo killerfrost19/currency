@@ -96,32 +96,23 @@
     }
 }
 
-@media (max-width: 500px) {
-    .topic{
-     font-size: 15px;
-     width:300px;
-     /* margin-top: -40%; */
-    }
-}
 
 @media (max-width: 500px) {
     .topic{
      font-size: 15px;
-     width:300px;
+     width:200px;
     }
     .cont{
-     width:250px;
-     margin-left: 40%;
+     width:150px;
+     margin-left: 30%;
     }
     .all{
      flex-wrap: wrap;
-     margin-left: 40%;
      
     }
     .cards{
-     width: 60%;
+     width: 38%;
      height: 50px;
-     margin-left: 40%;
      
     }
     .title{
